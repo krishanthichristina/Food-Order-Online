@@ -88,9 +88,9 @@
 
 
     <div class="container" style="margin-top: 4%; margin-bottom: 2%;">
-      <div class="col-md-5 col-md-offset-4">
-      <div class="panel panel-primary">
-        <div class="panel-heading"> Create Account </div>
+      <div  class="col-md-5 col-md-offset-4">
+      <div  class="panel panel-primary">
+        <div style="background-color: green;" class="panel-heading"> Create Account </div>
         <div class="panel-body">
           
         <form role="form" action="customer_registered_success.php" method="POST">
@@ -161,10 +161,10 @@
         </div>
 
         <div class="row">
-          <div class="form-group col-xs-12">
-            <label for="password"><span class="text-danger" style="margin-right: 5px;">*</span> Password: </label>
-            <div class="input-group">
-              <input class="form-control" id="password" type="password" name="password" placeholder="Password" required="">
+          <div  class="form-group col-xs-12">
+            <label  for="password"><span class="text-danger" style="margin-right: 5px;">*</span> Password: </label>
+            <div  class="input-group">
+              <input  class="form-control" id="password" type="password" name="password" placeholder="Password" required="">
               <span class="input-group-btn">
                 <label class="btn btn-primary"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></label>
             </span>
@@ -177,7 +177,7 @@
 
         <div class="row">
           <div class="form-group col-xs-4">
-              <button class="btn btn-primary" type="submit">Submit</button>
+              <button style="background-color: green;" class="btn btn-primary" type="submit">Submit</button>
           </div>
 
         </div>
