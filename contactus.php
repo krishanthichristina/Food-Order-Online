@@ -5,7 +5,7 @@ session_start();
 <html>
 
   <head>
-    <title> Contact | Freinds cafe's </title>
+    <title> Contact | Friends Corner </title>
   </head>
 
   <link rel="stylesheet" type = "text/css" href ="css/contactus.css">
@@ -49,7 +49,7 @@ session_start();
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">Friends Cafe'</a>
+          <a class="navbar-brand" href="index.php">Friends Corner</a>
         </div>
 
         <div class="collapse navbar-collapse " id="myNavbar">
@@ -125,7 +125,7 @@ else {
     <br>
 
     <div class="heading">
-     <strong>Want to contact <span class="edit"> Friends Cafe' </span>?</strong>
+     <strong>Want to contact <span class="edit"> Friends Corner </span>?</strong>
      <br>
     Here are a few ways to get in touch with us.
     </div>
