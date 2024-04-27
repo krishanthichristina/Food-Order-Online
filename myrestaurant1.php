@@ -63,7 +63,7 @@ if (!$success){
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">Freinds cafe's</a>
+          <a class="navbar-brand" href="index.php">Friends Corner</a>
         </div>
 
         <div class="collapse navbar-collapse " id="myNavbar">
