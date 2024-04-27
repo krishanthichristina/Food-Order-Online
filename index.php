@@ -121,7 +121,7 @@ else {
 
     <div class="wide">
       	<div class="col-xs-5 line"><hr></div>
-<div style="width: 50%; height: 50%;  " class="col-xs-2 logo">
+<div style="width: 50%; height: 50%;  margin-right: 500px; " class="col-xs-2 logo">
    <center > <img src="images/LogoImage.png"></center>
 </div>
         <center><div style="font-size: 6rem; color: rgb(37, 121, 32);; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); font-family: 'Times New Roman', serif; padding-top:40%; ,margin-left:10%" class="tagline">Good Food Good Mood</div></center>
