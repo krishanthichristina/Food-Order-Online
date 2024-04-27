@@ -63,6 +63,7 @@ header("location: foodlist.php");
             <li><a href="aboutus.php">About</a></li>
             <li><a href="contactus.php">Contact Us</a></li>
           </ul>
+		  3.2
 
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> Sign Up <span class="caret"></span> </a>
@@ -94,19 +95,19 @@ header("location: foodlist.php");
     </div>
     </div>
 
-    <div class="container" style="margin-top: 4%; margin-bottom: 2%;">
+    <div  class="container" style="margin-top: 4%; margin-bottom: 2%;">
       <div class="col-md-5 col-md-offset-4">
         <label style="margin-left: 5px;color: red;"><span> <?php echo $error;  ?> </span></label>
       <div class="panel panel-primary">
-        <div class="panel-heading"> Login </div>
-        <div class="panel-body">
+        <div style="background-color: green;" class="panel-heading"> Login </div>
+        <div  class="panel-body">
           
         <form action="" method="POST">
           
-        <div class="row">
+        <div  class="row">
           <div class="form-group col-xs-12">
-            <label for="username"><span class="text-danger" style="margin-right: 5px;">*</span> Username: </label>
-            <div class="input-group">
+            <label  for="username"><span class="text-danger" style="margin-right: 5px;">*</span> Username: </label>
+            <div  class="input-group">
               <input class="form-control" id="username" type="text" name="username" placeholder="Username" required="" autofocus="">
               <span class="input-group-btn">
                 <label class="btn btn-primary"><span class="glyphicon glyphicon-user" aria-hidden="true"></label>
@@ -131,12 +132,12 @@ header("location: foodlist.php");
 
         <div class="row">
           <div class="form-group col-xs-4">
-              <button class="btn btn-primary" name="submit" type="submit" value=" Login ">Submit</button>
+              <button style="background-color: green;" class="btn btn-primary" name="submit" type="submit" value=" Login ">Submit</button>
           </div>
 
         </div>
         <label style="margin-left: 5px;">or</label> <br>
-       <label style="margin-left: 5px;"><a href="customersignup.php">Create a new account.</a></label>
+       <label  style="margin-left: 5px; color:green"><a href="customersignup.php">Create a new account.</a></label>
 
         </form>
         </div>     
