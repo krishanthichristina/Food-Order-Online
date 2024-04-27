@@ -124,12 +124,11 @@ else {
 <div style="width: 50%; height: 50%; padding-right: 300px; , margin:auto;" class="col-xs-2 logo">
     <img src="images/LogoImage.png">
 </div>
-        <div class="col-xs-5 line"><hr></div>
-       <div style="font-size: 6rem; color: rgb(37, 121, 32);; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); font-family: 'Times New Roman', serif; padding-top:30%; ,margin-left:10%" class="tagline">Good Food Good Mood</div>
+        <center><div style="font-size: 6rem; color: rgb(37, 121, 32);; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); font-family: 'Times New Roman', serif; padding-top:30%; ,margin-left:10%" class="tagline">Good Food Good Mood</div></center>
 
     </div >
     <div style="padding-bottom:10%" class="orderblock">
-    <h2>Feeling Hungry?</h2>
+    <center ><h2>Feeling Hungry?</h2></center>
     <center><a class="btn btn-success btn-lg" href="customerlogin.php" role="button" > Order Now </a></center>
     </div>
 
