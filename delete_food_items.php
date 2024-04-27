@@ -54,7 +54,7 @@ header('Location: managerlogin.php');
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">Friends Cornera>
+          <a class="navbar-brand" href="index.php">Friends Corner>
         </div>
 
         <div class="collapse navbar-collapse " id="myNavbar">
