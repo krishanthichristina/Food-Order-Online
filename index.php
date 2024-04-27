@@ -124,7 +124,7 @@ else {
 <div style="width: 50%; height: 50%; padding-right: 300px; , margin:auto;" class="col-xs-2 logo">
     <img src="images/LogoImage.png">
 </div>
-        <center><div style="font-size: 6rem; color: rgb(37, 121, 32);; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); font-family: 'Times New Roman', serif; padding-top:40%; ,margin-left:10%" class="tagline">Good Food Good Mood</div></center>
+        <center><div style="font-size: 6rem; color: rgb(37, 121, 32);; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); font-family: 'Times New Roman', serif; padding-top:30%; ,margin-left:10%" class="tagline">Good Food Good Mood</div></center>
 
     </div >
     <div style="padding-bottom:10%" class="orderblock">
