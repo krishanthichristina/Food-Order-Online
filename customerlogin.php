@@ -10,7 +10,7 @@ header("location: foodlist.php");
 <html>
 
   <head>
-    <title> Guest Login | Le Cafe' </title>
+    <title> Guest Login | Friends Corner </title>
   </head>
 
   <link rel="stylesheet" type = "text/css" href ="css/managerlogin.css">
@@ -54,7 +54,7 @@ header("location: foodlist.php");
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">Friends Cafe's</a>
+          <a class="navbar-brand" href="index.php">Friends Corner</a>
         </div>
 
         <div class="collapse navbar-collapse " id="myNavbar">
@@ -88,7 +88,7 @@ header("location: foodlist.php");
 
     <div class="container">
     <div class="jumbotron">
-     <h1>Hi Guest,<br> Welcome to <span class="edit"> Friends Cafe's </span></h1>
+     <h1>Hi Guest,<br> Welcome to <span class="edit"> Friends Corner</span></h1>
      <br>
    <p>Kindly LOGIN to continue.</p>
     </div>
