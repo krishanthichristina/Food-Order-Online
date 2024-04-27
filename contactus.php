@@ -5,7 +5,7 @@ session_start();
 <html>
 
   <head>
-    <title> Contact | Le Cafe' </title>
+    <title> Contact | Freinds cafe's </title>
   </head>
 
   <link rel="stylesheet" type = "text/css" href ="css/contactus.css">
