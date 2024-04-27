@@ -278,6 +278,33 @@ echo '<script>window.location="cart.php"</script>';
 <?php
 
 ?>
-
+<!-- Footer Section -->
+<footer class="footer" style="background-color: #2f2f2f; color: white;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Contact Us</h3>
+        <p>Email: info@friendscorner.com</p>
+        <p>Phone: +9435 22 57 562</p>
+        <p>Address: 123 Friendship Street, Happyville</p>
+      </div>
+      <div class="col-md-6">
+        <h3>Follow Us</h3>
+        <ul class="social-icons">
+          <li><a href="www.facebook.com"><i class="fab fa-facebook-f">Facebook</i></a></li>
+          <li><a href="www.twitter.com"><i class="fab fa-twitter">Instagram</i></a></li>
+          <li><a href="www.instagram.com"><i class="fab fa-instagram">Twitter</i></a></li>
+          <li><a href="www.linkedin.com"><i class="fab fa-linkedin">Linkedin</i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p>&copy; <?php echo date("Y"); ?> Friends Corner. All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- End Footer Section -->
     </body>
 </html>
