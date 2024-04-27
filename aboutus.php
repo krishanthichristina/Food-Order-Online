@@ -5,7 +5,7 @@ session_start();
 <html>
 
   <head>
-    <title> About | Friends Cafe's </title>
+    <title> About | Friends Corner </title>
   </head>
 
   <link rel="stylesheet" type = "text/css" href ="css/aboutus.css">
@@ -49,7 +49,7 @@ session_start();
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">Friends Cafe's</a>
+          <a class="navbar-brand" href="index.php">Friends Corner</a>
         </div>
 
         <div class="collapse navbar-collapse " id="myNavbar">
@@ -124,7 +124,7 @@ else {
     <div class="wide">
         
         <div class="tagline"> <font color="red">It's not our <font color="green"><strong>work life</strong></font> <font color="red">, it's our <font color="green"><strong><em>life's work</em>.</strong></font></div>
-        <h3 style="color: red">About the food culture in Friends Cafe's</h3>
+        <h3 style="color: red">About the food culture in Friends Corner</h3>
         <br>
         <h3 style="color: black" >Order food & beverages online from restaurants near & around you. <h3 style="color: black">We deliver food from your neighborhood local joints, your favorite cafes, luxurious & elite restaurants in your area,</h3><h3 style="color : black"> and also from chains like Dominos, KFC, Burger King, Pizza Hut, FreshMenu, Mc Donald's, Subway, Faasos, Cafe Coffee Day, Taco Bell, and more. Exciting bit?</h3><h3 style="color : black"> We place no minimum order restrictions! Order in as little (or as much) as you'd like. We'll Swiggy it to you!</h3></h3>
     </div>
