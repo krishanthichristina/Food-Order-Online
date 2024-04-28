@@ -133,6 +133,59 @@ else {
 </div>
 
 
+<!-- Your existing HTML code -->
+
+<!-- Add a container for the advertisement banner -->
+<div id="advertisementContainer" class="advertisement-container">
+  <!-- Add the close button (X) in the upper right corner -->
+  <button id="closeAdvertisement" class="close-advertisement">X</button>
+  <!-- Add the advertisement banner image -->
+  <img src="images\ad.jpeg" alt="Advertisement Banner">
+</div>
+
+<!-- Your existing HTML code continued -->
+
+<!-- CSS to style the advertisement container and close button -->
+<style>
+  .advertisement-container {
+    position: relative;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+
+  .close-advertisement {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #999;
+  }
+
+  .close-advertisement:hover {
+    color: #555;
+  }
+</style>
+
+<!-- JavaScript to handle closing the advertisement container -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Get the close button and the advertisement container
+    var closeButton = document.getElementById("closeAdvertisement");
+    var advertisementContainer = document.getElementById("advertisementContainer");
+
+    // Add event listener to close the container when the close button is clicked
+    closeButton.addEventListener("click", function() {
+      advertisementContainer.style.display = "none"; // Hide the container
+    });
+  });
+</script>
+
+
     <!-- Footer Section -->
 <footer class="footer" style="background-color: #2f2f2f; color: white;">
   <div class="container">
