@@ -114,23 +114,24 @@ else {
 <?php
 }
 ?>
-       </div>
-
-      </div>
-    </nav>
-
-    <div class="wide">
-      	<div class="col-xs-5 line"><hr></div>
-<div style="width: 50%; height: 50%; ,margin-left: 100px;,  margin-right: 300px; " class="col-xs-2 logo">
-   <center > <img src="images/LogoImage.png"></center>
+ </div>
 </div>
-        <center><div style="font-size: 6rem; color: rgb(37, 121, 32);; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); font-family: 'Times New Roman', serif; padding-top:40%; ,margin-left:10%" class="tagline">Good Food Good Mood</div></center>
+</nav>
 
-    </div >
-    <div style="padding-bottom:10%" class="orderblock">
-    <center ><h2>Feeling Hungry?</h2></center>
-    <center><a class="btn btn-success btn-lg" href="customerlogin.php" role="button" > Order Now </a></center>
-    </div>
+<div class="wide">
+  <div class="col-xs-5 line"><hr></div>
+  <div class="col-xs-2 logo text-center">
+    <img src="images/LogoImage.png">
+  </div>
+  <div class="text-center">
+    <div style="font-size: 6rem; color: rgb(37, 121, 32); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); font-family: 'Times New Roman', serif; padding-top: 40%; margin-left: 10%;" class="tagline">Good Food Good Mood</div>
+  </div>
+</div>
+<div style="padding-bottom: 10%;" class="orderblock text-center">
+  <h2>Feeling Hungry?</h2>
+  <a class="btn btn-success btn-lg" href="customerlogin.php" role="button">Order Now</a>
+</div>
+
 
     <!-- Footer Section -->
 <footer class="footer" style="background-color: #2f2f2f; color: white;">
