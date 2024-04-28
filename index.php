@@ -128,7 +128,7 @@ else {
   </div>
 </div>
 <div style="padding-bottom: 10%;" class="orderblock text-center">
-  <h2>Feeling Hungry?</h2>
+  <h2 style="font-family: 'Pacifico', cursive;">Feeling Hungry?</h2>
   <a class="btn btn-success btn-lg" href="customerlogin.php" role="button">Order Now</a>
 </div>
 
