@@ -133,29 +133,30 @@ else {
 </div>
 
 
-<!-- Your existing HTML code -->
-
-<!-- Add a container for the advertisement banner -->
-<div id="advertisementContainer" class="advertisement-container">
+<!-- Add a container for the floating advertisement -->
+<div id="floatingAdvertisement" class="floating-advertisement">
   <!-- Add the close button (X) in the upper right corner -->
-  <button id="closeAdvertisement" class="close-advertisement">X</button>
+  <button id="closeFloatingAdvertisement" class="close-floating-advertisement">X</button>
   <!-- Add the advertisement banner image -->
   <img src="images\ad.jpeg" alt="Advertisement Banner">
 </div>
 
 <!-- Your existing HTML code continued -->
 
-<!-- CSS to style the advertisement container and close button -->
+<!-- CSS to style the floating advertisement and close button -->
 <style>
-  .advertisement-container {
-    position: relative;
+  .floating-advertisement {
+    position: fixed;
+    top: 200px; /* Adjust as needed to position the floating ad */
+    right: 10px; /* Adjust as needed to position the floating ad */
+    z-index: 1000; /* Ensure it appears above other content */
     padding: 10px;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
-    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
 
-  .close-advertisement {
+  .close-floating-advertisement {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -166,21 +167,21 @@ else {
     color: #999;
   }
 
-  .close-advertisement:hover {
+  .close-floating-advertisement:hover {
     color: #555;
   }
 </style>
 
-<!-- JavaScript to handle closing the advertisement container -->
+<!-- JavaScript to handle closing the floating advertisement -->
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    // Get the close button and the advertisement container
-    var closeButton = document.getElementById("closeAdvertisement");
-    var advertisementContainer = document.getElementById("advertisementContainer");
+    // Get the close button and the floating advertisement container
+    var closeFloatingButton = document.getElementById("closeFloatingAdvertisement");
+    var floatingAdvertisement = document.getElementById("floatingAdvertisement");
 
-    // Add event listener to close the container when the close button is clicked
-    closeButton.addEventListener("click", function() {
-      advertisementContainer.style.display = "none"; // Hide the container
+    // Add event listener to close the floating advertisement when the close button is clicked
+    closeFloatingButton.addEventListener("click", function() {
+      floatingAdvertisement.style.display = "none"; // Hide the floating advertisement
     });
   });
 </script>
