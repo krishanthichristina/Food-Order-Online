@@ -295,6 +295,55 @@ if (!isset($_SESSION['login_user2'])) {
     }
 </script>
 
+<div id="floatingAdvertisement" class="floating-advertisement">
+
+  <button id="closeFloatingAdvertisement" class="close-floating-advertisement">X</button>
+  <img src="images\ad2.jpg" alt="Advertisement Banner">
+</div>
+
+<!-- CSS to style the floating advertisement and close button -->
+<style>
+  .floating-advertisement {
+    position: fixed;
+    top: 50px; /* Adjust as needed to position the floating ad */
+    right: 10px; /* Adjust as needed to position the floating ad */
+    z-index: 1000; /* Ensure it appears above other content */
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .close-floating-advertisement {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #999;
+  }
+
+  .close-floating-advertisement:hover {
+    color: #555;
+  }
+</style>
+
+<!-- JavaScript to handle closing the floating advertisement -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Get the close button and the floating advertisement container
+    var closeFloatingButton = document.getElementById("closeFloatingAdvertisement");
+    var floatingAdvertisement = document.getElementById("floatingAdvertisement");
+
+    // Add event listener to close the floating advertisement when the close button is clicked
+    closeFloatingButton.addEventListener("click", function() {
+      floatingAdvertisement.style.display = "none"; // Hide the floating advertisement
+    });
+  });
+</script>
+
 <footer class="footer" style="background-color: #2f2f2f; color: white;">
     <div class="container">
         <div class="row">
